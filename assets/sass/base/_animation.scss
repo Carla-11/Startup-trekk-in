@@ -1,0 +1,15 @@
+@keyframes grafico {
+    0%{
+        transform: translatex(100px);
+        fill:red;
+        stroke: blue;
+        stroke-width: 1;
+    }
+
+    100% {
+        fill:blanchedalmond;
+        transform: translate(-100px);
+        stroke-width: 1.5; 
+        stroke: rgb(204, 218, 12);
+    }
+}

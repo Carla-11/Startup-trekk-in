@@ -1,0 +1,95 @@
+
+
+
+.container_section1{
+
+    background-image: url(../images/bg-hero.svg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+   
+
+    .header_titulo{
+
+        font-size: $xxxxx-large;
+        margin-left: 50px;
+        padding-bottom: 10px;
+        position: relative;
+    
+    
+      }
+    
+      .p{
+        margin-left: 50px;
+        font-size: $large;
+        grid-gap: 20px;
+        padding: 30px 20%;
+    
+      }
+}
+
+.titulo_centrado{
+
+   font-size: $xxx-large;
+   text-align: center;
+   margin-top: 70px;
+   margin-bottom: 50px;
+}
+
+
+
+.container_section2{
+
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    height: 500px;
+    width: 1200px;
+
+
+
+    &__container_caja{
+
+        text-align: center;
+        color: black;
+    }
+
+    &__h3{
+        margin-top: 20px;
+        text-align: center;
+        font-size: $xx-large;
+    }
+
+    &__p {
+        right: 20px;
+        position:relative;
+        margin-top: 10px;
+        line-height: 25px;
+        
+        }
+
+        .bar-graph{
+            fill-rule: evenodd;
+            animation: grafico 8s linear 4s infinite alternate;
+        }
+        
+        .a-bar{
+            fill:#EE9480;
+            animation: grafico 8s linear 4s infinite alternate;
+        }
+        
+        .b-bar{
+            fill:#2AB7CA;
+            animation: grafico 8s linear 4s infinite alternate;
+        }
+        .plane{
+            stroke:#979797;
+            stroke-width:5;
+            stroke-linecap: square;
+            animation: grafico 8s linear 4s infinite alternate;
+        }
+}
